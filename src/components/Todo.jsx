@@ -75,7 +75,7 @@ const Todo = () => {
 
   return (
 
-    <div className='bg-white dark:bg-stone-800 dark:text-stone-200 place-self-center w-[95%] max-w-lg flex flex-col p-7 min-h-[70vh] rounded-xl'>
+    <div className='bg-white dark:bg-stone-800 dark:text-stone-200 place-self-center w-[95%] max-w-md flex flex-col p-7 min-h-[70vh] rounded-xl'>
 
         
        {/* ------ dark mode ------ */}

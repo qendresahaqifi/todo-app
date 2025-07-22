@@ -53,7 +53,7 @@ const TodoItems = ({ text, id, isComplete, deleteTodo, toggle, editTodo, timesta
 
         {timestamp && (
             <p className="ml-12 text-xs text-gray-400 dark:text-gray-300">
-                Added: {format(new Date(timestamp), "MMM dd, h:mm a")}
+              {format(new Date(timestamp), "MMM dd, h:mm a")}
             </p>
         )}
       </div>
